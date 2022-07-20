@@ -96,9 +96,8 @@ body {
 .menu-item:not(:last-child) {
     margin-right: 50px;
 }
-/* .nav-list .menu-item+.menu-item {
-    margin-left: 50px;
-} */
+
+
 
 .header-nav .link {
     display: block;
@@ -112,6 +111,12 @@ body {
     color: var(--secondary-text-color);
 }
 
+.menu-item .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
 .menu-link.current {
     color: var(--accent-color);
 }
@@ -250,6 +255,10 @@ body {
     color: var(--primary-text-color)
 }
 
+.our-work{
+    padding-top: 0px;
+}
+
 .title {
     margin-bottom: 50px;
 }
@@ -380,7 +389,7 @@ body {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
     justify-content: center;
 
 }
@@ -453,6 +462,7 @@ body {
 }
 
 .proj-desc {
+    margin: 0px auto;
     line-height: 2;
     letter-spacing: 0.03em;
 }
@@ -463,5 +473,6 @@ body {
     border-right: 1px solid#EEEEEE;
     border-bottom: 1px solid#EEEEEE;
 }
+
 
 /* PORTFOLIO MAIN */
